@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Website Time Tracker Configuration</title>
+    </head>
+    <body>
+        <script src="/lib/chart.umd.min.js"></script>
+        <canvas id="pieChart" width="120px" height="120px"></canvas>
+        <h3>Add whitelisted site:</h3>
+        <input type="text" id="siteInput" placeholder="Enter site domain">
+        <button type="button" id="siteAdd">Add site!</button>
+
+        <ul id="siteList"></ul>
+        <p>PS. when the whitelist is empty, all sites are recorded!<br>PPS. enter site and domain, like www.youtube.com or wikipedia.org</p>
+        </p>
+
+        <button type="button" id="clearData">Clear all data</button>
+        <script src="popup.js"></script>
+    </body>
+</html>
